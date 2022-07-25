@@ -151,6 +151,7 @@ extension LoginViewController {
             signInButton.configuration?.showsActivityIndicator = true
         }else {
             configureView(withMessage: "incorrect username / password !")
+            return
         }
         
         
