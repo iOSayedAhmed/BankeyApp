@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BA0717F52884A4270008CE39 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0717F42884A4270008CE39 /* OnboardingContainerViewController.swift */; };
+		BA10F71E28C48D06009AC4FA /* UIViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10F71D28C48D06009AC4FA /* UIViewController + Extensions.swift */; };
+		BA10F72028C48E71009AC4FA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10F71F28C48E71009AC4FA /* MainViewController.swift */; };
 		BA12460128A5076900C8F386 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA12460028A5076900C8F386 /* LocalState.swift */; };
 		BA1556DA288E9ACE0058D9DF /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1556D9288E9ACE0058D9DF /* OnboardingViewController.swift */; };
 		BAA2BB2F289A98EF0031564A /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA2BB2E289A98EF0031564A /* LogoutViewController.swift */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		BA0717F42884A4270008CE39 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		BA10F71D28C48D06009AC4FA /* UIViewController + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extensions.swift"; sourceTree = "<group>"; };
+		BA10F71F28C48E71009AC4FA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BA12460028A5076900C8F386 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		BA1556D9288E9ACE0058D9DF /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		BAA2BB2E289A98EF0031564A /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +54,14 @@
 				BA1556D9288E9ACE0058D9DF /* OnboardingViewController.swift */,
 			);
 			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		BA10F71C28C48CCF009AC4FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA10F71D28C48D06009AC4FA /* UIViewController + Extensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		BA1245FF28A5075000C8F386 /* LocalState */ = {
@@ -87,10 +99,14 @@
 		BABA9F0C286B96D5000EAAD7 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				BABA9F0D286B96D5000EAAD7 /* AppDelegate.swift */,
+				BA10F71F28C48E71009AC4FA /* MainViewController.swift */,
 				BA1245FF28A5075000C8F386 /* LocalState */,
-				BABA9F21286B9899000EAAD7 /* Files */,
+				BA10F71C28C48CCF009AC4FA /* Extensions */,
 				BABA9F22286B98BB000EAAD7 /* Login */,
 				BA0717F32884A4020008CE39 /* Onboarding */,
+				BAA2BB2D289A98BD0031564A /* Logout */,
+				BABA9F21286B9899000EAAD7 /* Files */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";
@@ -98,11 +114,9 @@
 		BABA9F21286B9899000EAAD7 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				BABA9F0D286B96D5000EAAD7 /* AppDelegate.swift */,
 				BABA9F16286B96D7000EAAD7 /* Assets.xcassets */,
 				BABA9F18286B96D7000EAAD7 /* LaunchScreen.storyboard */,
 				BABA9F1B286B96D7000EAAD7 /* Info.plist */,
-				BAA2BB2D289A98BD0031564A /* Logout */,
 			);
 			name = Files;
 			sourceTree = "<group>";
@@ -192,6 +206,8 @@
 				BA1556DA288E9ACE0058D9DF /* OnboardingViewController.swift in Sources */,
 				BABA9F12286B96D5000EAAD7 /* LoginViewController.swift in Sources */,
 				BAA2BB2F289A98EF0031564A /* LogoutViewController.swift in Sources */,
+				BA10F72028C48E71009AC4FA /* MainViewController.swift in Sources */,
+				BA10F71E28C48D06009AC4FA /* UIViewController + Extensions.swift in Sources */,
 				BABA9F0E286B96D5000EAAD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

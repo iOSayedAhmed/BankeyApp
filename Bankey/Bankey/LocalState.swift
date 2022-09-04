@@ -20,7 +20,7 @@ class LocalState {
         
         set(newValue){
             UserDefaults.standard.set(newValue, forKey: Keys.hasOnboarded.rawValue)
-            //UserDefaults.standard
+//            UserDefaults.standard.synchronize()
         }
     }
     
